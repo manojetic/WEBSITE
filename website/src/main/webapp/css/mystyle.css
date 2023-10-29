@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+body {
+	background-clip: #7E9CBF;
+}
+
+.ctr{
+	align-items: center;
+}
+
+.admin .card{
+    border:1px solid green;
+}
+
+.admin .card:hover{
+
+    background:#e2e2e2;
+    cursor: pointer;
+}
+.card mt-3{
+	background-color: #BFA17E;
+}
+
+.list-group-item.active{
+
+    background:green;
+    border-color:green;
+}
+
+.discount-label{
+    font-size: 10px!important;
+    font-style: italic!important;
+    /*text-decoration: line-through!important;*/
+}
+
+.product-card:hover{
+    background:#e2e2e2;
+    cursor: pointer;
+
+
+}
